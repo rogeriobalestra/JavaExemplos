@@ -33,6 +33,7 @@ public class TCPServer {
 		valor++;
 		dos.writeInt(valor);
 		
+		//Fecha
 		clientSocket.close();
 		serverSocket.close();
 		
